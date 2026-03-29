@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:warm_ocean",
+    {
+      "id": "terralith:caldera",
+      "required": false
+    }
+  ]
+}

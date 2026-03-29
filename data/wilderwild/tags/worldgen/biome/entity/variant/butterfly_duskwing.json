@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "wilderwild:tundra",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_rainforest",
+      "required": false
+    },
+    {
+      "id": "terralith:mirage_isles",
+      "required": false
+    }
+  ]
+}

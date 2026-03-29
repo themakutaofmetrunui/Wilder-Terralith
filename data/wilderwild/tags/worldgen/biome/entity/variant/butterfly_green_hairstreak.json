@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:flower_forest",
+    {
+      "id": "wilderwild:flower_field",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:temperate_highlands",
+      "required": false
+    }
+  ]
+}

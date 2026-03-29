@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    {
+      "id": "terralith:desert_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:red_oasis",
+      "required": false
+    }
+  ]
+}

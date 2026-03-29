@@ -1,0 +1,243 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+        "decorators": [
+            {
+                "type": "minecraft:beehive",
+                "probability": 0.003
+            },
+            {
+                "type": "minecraft:place_on_ground",
+                "block_state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "north",
+                                    "segment_amount": "1"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "east",
+                                    "segment_amount": "1"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "south",
+                                    "segment_amount": "1"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "west",
+                                    "segment_amount": "1"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "north",
+                                    "segment_amount": "2"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "east",
+                                    "segment_amount": "2"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "south",
+                                    "segment_amount": "2"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "west",
+                                    "segment_amount": "2"
+                                }
+                            },
+                            "weight": 3
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "north",
+                                    "segment_amount": "3"
+                                }
+                            },
+                            "weight": 2
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "east",
+                                    "segment_amount": "3"
+                                }
+                            },
+                            "weight": 2
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "south",
+                                    "segment_amount": "3"
+                                }
+                            },
+                            "weight": 2
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "west",
+                                    "segment_amount": "3"
+                                }
+                            },
+                            "weight": 2
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "north",
+                                    "segment_amount": "4"
+                                }
+                            },
+                            "weight": 1
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "east",
+                                    "segment_amount": "4"
+                                }
+                            },
+                            "weight": 1
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "south",
+                                    "segment_amount": "4"
+                                }
+                            },
+                            "weight": 1
+                        },
+                        {
+                            "data": {
+                                "Name": "wilderwild:azalea_leaf_litter",
+                                "Properties": {
+                                    "facing": "west",
+                                    "segment_amount": "4"
+                                }
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                "height": 3,
+                "radius": 7,
+                "tries": 512
+            }
+        ],
+        "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:dirt"
+            }
+        },
+        "foliage_placer": {
+            "type": "minecraft:fancy_foliage_placer",
+            "height": 3,
+            "offset": 2,
+            "radius": 3
+        },
+        "foliage_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "data": {
+                        "Name": "minecraft:azalea_leaves",
+                        "Properties": {
+                            "distance": "7",
+                            "persistent": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "weight": 4
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:flowering_azalea_leaves",
+                        "Properties": {
+                            "distance": "7",
+                            "persistent": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "weight": 1
+                }
+            ]
+        },
+        "ignore_vines": true,
+        "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "limit": 2,
+            "lower_size": 0,
+            "upper_size": 2
+        },
+        "trunk_placer": {
+            "type": "minecraft:fancy_trunk_placer",
+            "base_height": 8,
+            "height_rand_a": 2,
+            "height_rand_b": 3
+        },
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:oak_log",
+                "Properties": {
+                    "axis": "y"
+                }
+            }
+        }
+    }
+}

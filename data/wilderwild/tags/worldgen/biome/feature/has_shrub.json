@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:cherry_grove",
+    {
+      "id": "terralith:highlands",
+      "required": false
+    },
+    {
+      "id": "#terralith:shrublands",
+      "required": false
+    }
+  ]
+}

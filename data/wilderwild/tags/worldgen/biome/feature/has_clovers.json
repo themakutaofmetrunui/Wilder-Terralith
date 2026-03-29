@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:cherry_grove",
+    {
+      "id": "#wilderwild:meadow",
+      "required": false
+    },
+    {
+      "id": "terralith:haze_mountain",
+      "required": false
+    }
+  ]
+}

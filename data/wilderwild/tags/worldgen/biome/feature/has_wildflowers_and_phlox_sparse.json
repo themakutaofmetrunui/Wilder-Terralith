@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#wilderwild:meadow",
+      "required": false
+    },
+    {
+      "id": "terralith:yosemite_cliffs",
+      "required": false
+    }
+  ]
+}

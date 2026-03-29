@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "wilderwild:cypress_wetlands",
+      "required": false
+    },
+    {
+      "id": "terralith:orchid_swamp",
+      "required": false
+    }
+  ]
+}

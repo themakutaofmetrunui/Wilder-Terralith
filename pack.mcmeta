@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "description": {
+            "text": "Making Wilder Wild a part of Terralith"
+        },
+        "min_format": 94,
+        "max_format":
+        [
+            94,
+            1
+        ]
+    }
+}

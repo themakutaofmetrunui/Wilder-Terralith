@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:taiga",
+    {
+      "id": "terralith:wintry_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:wintry_lowlands",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:savanna",
+    "minecraft:windswept_savanna",
+    {
+      "id": "wilderwild:parched_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:fractured_savanna",
+      "required": false
+    }
+  ]
+}

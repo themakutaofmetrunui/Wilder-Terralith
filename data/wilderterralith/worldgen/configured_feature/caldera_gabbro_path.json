@@ -1,0 +1,41 @@
+{
+  "type": "frozenlib:noise_path",
+  "config": {
+    "noise_band_placement": {
+      "block_placements": [
+        {
+          "minimum_noise_threshold": 0.18,
+          "placement_chance": 0.7,
+          "replacement_block_predicate": {
+            "type": "matching_blocks",
+            "blocks": [
+            "cobbled_deepslate",
+            "basalt",
+            "smooth_basalt",
+            "blackstone"
+          ]
+          },
+          "searching_block_predicate": {
+            "type": "frozenlib:touching",
+            "all_must_match": false,
+            "block_predicate": {
+              "type": "minecraft:replaceable"
+            }
+          },
+          "state_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "wilderwild:gabbro"
+            }
+          }
+        }
+      ],
+      "heightmap": "OCEAN_FLOOR",
+      "include_y_in_noise_calculation": true,
+      "noise_scale": 0.15,
+      "noise_type": "LOCAL",
+      "scale_noise_y": true
+    },
+    "placement_radius": 9
+  }
+}

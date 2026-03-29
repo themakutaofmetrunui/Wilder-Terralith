@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:warm_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    {
+      "id": "#wilderwild:entity/spawn/jellyfish_common_spawn",
+      "required": false
+    },
+    {
+      "id": "terralith:deep_warm_ocean",
+      "required": false
+    },
+    {
+      "id": "terralith:mirage_isles",
+      "required": false
+    }
+  ]
+}
