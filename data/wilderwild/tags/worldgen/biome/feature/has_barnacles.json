@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:mangrove_swamp",
+    {
+      "id": "terralith:frozen_cliffs",
+      "required": false
+    }
+  ]
+}
