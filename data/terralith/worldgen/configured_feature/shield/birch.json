@@ -171,7 +171,7 @@
                 },
                 "height": 2,
                 "radius": 5,
-                "tries": 256
+                "tries": 16
             },
             {
             "type": "wilderwild:shelf_fungi_tree_decorator",
@@ -194,7 +194,7 @@
                             "waterlogged": "false"
                         }
                     },
-                    "weight": 17
+                    "weight": 3
                 },
                 {
                     "data": {
@@ -219,10 +219,10 @@
             }
         }
         ],
-        "dirt_provider": {
+        "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:coarse_dirt"
+                "Name": "minecraft:dirt"
             }
         },
         "foliage_placer": {
@@ -254,7 +254,6 @@
                 }
             }
         },
-        "force_dirt": true,
         "ignore_vines": true,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size",

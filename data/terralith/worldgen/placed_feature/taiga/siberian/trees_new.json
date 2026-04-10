@@ -5,7 +5,7 @@
             "decorators": [
                 {
         "type": "wilderwild:shelf_fungi_tree_decorator",
-        "placement_chance": 0.25,
+        "placement_chance": 0.05,
         "probability": 0.074,
         "shelf_fungi_provider": {
           "type": "minecraft:randomized_int_state_provider",
@@ -31,12 +31,12 @@
         }
       }
             ],
-            "dirt_provider": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                    "Name": "minecraft:dirt"
-                }
-            },
+            "below_trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:dirt"
+            }
+        },
             "foliage_placer": {
                 "type": "minecraft:pine_foliage_placer",
                 "height": 4,
@@ -58,7 +58,6 @@
                     }
                 }
             },
-            "force_dirt": true,
             "ignore_vines": true,
             "minimum_size": {
                 "type": "minecraft:two_layers_feature_size",

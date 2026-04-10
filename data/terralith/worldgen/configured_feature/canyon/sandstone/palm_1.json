@@ -5,22 +5,30 @@
             {
                 "type": "minecraft:alter_ground",
                 "provider": {
-                    "type": "minecraft:weighted_state_provider",
-                    "entries": [
+                    "type": "minecraft:rule_based_state_provider",
+                    "rules": [
                         {
-                            "data": {
-                                "Name": "minecraft:moss_block",
-                                "Properties": {
-                                    "snowy": "false"
-                                }
-                            },
-                            "weight": 3
+                        "if_true": {
+                            "type": "minecraft:matching_block_tag",
+                            "tag": "minecraft:sand"
                         },
-                        {
-                            "data": {
-                                "Name": "minecraft:sand"
-                            },
-                            "weight": 1
+                        "then": {
+                                "type": "minecraft:weighted_state_provider",
+                                "entries": [
+                                    {
+                                        "data": {
+                                            "Name": "minecraft:moss_block"
+                                        },
+                                        "weight": 3
+                                    },
+                                    {
+                                        "data": {
+                                            "Name": "minecraft:sand"
+                                        },
+                                        "weight": 1
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -30,7 +38,7 @@
                 "probability": 0.25
             }
         ],
-        "dirt_provider": {
+        "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
                 "Name": "minecraft:rooted_dirt"
@@ -70,7 +78,6 @@
                 }
             ]
         },
-        "force_dirt": true,
         "ignore_vines": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size",
@@ -93,7 +100,7 @@
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "wilderwild:palm_log",
+                "Name": "wilderwid:palm_log",
                 "Properties": {
                     "axis": "y"
                 }

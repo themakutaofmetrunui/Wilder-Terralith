@@ -5,10 +5,32 @@
             {
                 "type": "minecraft:alter_ground",
                 "provider": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                        "Name": "minecraft:moss_block"
-                    }
+                    "type": "minecraft:rule_based_state_provider",
+                    "rules": [
+                        {
+                        "if_true": {
+                            "type": "minecraft:matching_block_tag",
+                            "tag": "minecraft:sand"
+                        },
+                        "then": {
+                                "type": "minecraft:weighted_state_provider",
+                                "entries": [
+                                    {
+                                        "data": {
+                                            "Name": "minecraft:moss_block"
+                                        },
+                                        "weight": 3
+                                    },
+                                    {
+                                        "data": {
+                                            "Name": "minecraft:sand"
+                                        },
+                                        "weight": 1
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -16,7 +38,7 @@
                 "probability": 0.25
             }
         ],
-        "dirt_provider": {
+        "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
                 "Name": "minecraft:rooted_dirt"
@@ -56,7 +78,6 @@
                 }
             ]
         },
-        "force_dirt": true,
         "ignore_vines": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size",

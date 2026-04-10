@@ -3,10 +3,10 @@
         "description": {
             "text": "Making Wilder Wild a part of Terralith"
         },
-        "min_format": 94,
+        "min_format": 101,
         "max_format":
         [
-            94,
+            101,
             1
         ]
     }

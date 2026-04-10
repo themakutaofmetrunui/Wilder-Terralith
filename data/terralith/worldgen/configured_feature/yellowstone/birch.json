@@ -23,7 +23,7 @@
                             "waterlogged": "false"
                         }
                     },
-                    "weight": 17
+                    "weight": 3
                 },
                 {
                     "data": {
@@ -216,10 +216,10 @@
                 },
             "height": 3,
             "radius": 7,
-            "tries": 512
+            "tries": 16
         }
         ],
-        "dirt_provider": {
+        "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
                 "Name": "minecraft:coarse_dirt"
@@ -254,7 +254,6 @@
                 }
             }
         },
-        "force_dirt": true,
         "ignore_vines": true,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size",

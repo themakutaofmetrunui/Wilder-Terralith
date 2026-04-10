@@ -219,7 +219,7 @@
             }
         }
         ],
-        "dirt_provider": {
+        "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
                 "Name": "minecraft:dirt"
@@ -244,7 +244,6 @@
                 }
             }
         },
-        "force_dirt": true,
         "ignore_vines": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size",
